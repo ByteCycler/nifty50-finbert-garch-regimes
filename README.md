@@ -6,7 +6,7 @@ This project tests the **Sentiment-Driven Volatility Hypothesis** against the **
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 * **Sentiment Extraction:** Uses Hugging Face's `ProsusAI/FinBERT` to evaluate daily financial news sentiment.
 * **Volatility Modeling:** Estimates daily conditional market variance using a GARCH(1,1) model.
@@ -15,7 +15,7 @@ This project tests the **Sentiment-Driven Volatility Hypothesis** against the **
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
 The statistical testing strongly supports the **Reactive Media Hypothesis**:
 * **Volatility Leads Sentiment:** Historical market volatility strongly drives subsequent shifts in financial news tone (p < 0.001).
@@ -24,7 +24,7 @@ The statistical testing strongly supports the **Reactive Media Hypothesis**:
 
 ---
 
-## 📊 Key Visualizations 
+##  Key Visualizations 
 *Note: All output graphs are generated and saved in the `data/` directory.*
 
 * **sentiment_vs_volatility.png**: Scatter plot showing the spatial density separations between low and high market volatility regimes.
@@ -33,7 +33,7 @@ The statistical testing strongly supports the **Reactive Media Hypothesis**:
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 1. Install dependencies:
    `pip install -r requirements.txt`
